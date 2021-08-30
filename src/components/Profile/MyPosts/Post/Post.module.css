@@ -1,0 +1,11 @@
+.item {
+    color: #042cd0;
+}
+.item img{
+    width: 50px;
+    border-radius: 50%;
+}
+.like span{
+    margin-right: 10px;
+    color: #03f5b4;
+}
