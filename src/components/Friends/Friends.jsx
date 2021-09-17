@@ -1,11 +1,11 @@
 import React from "react";
 
-const Settings = (props) => {
+const Friends = (props) => {
     return (
         <main>
-            Settings
+            Friends
         </main>
     );
 }
 
-export default Settings;
+export default Friends;

@@ -4,3 +4,7 @@
 .posts{
     margin-top: 10px;
 }
+
+.addPosts textarea{
+    resize:none
+}
