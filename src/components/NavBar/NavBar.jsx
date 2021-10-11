@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import style from './NavBar.module.css';
 import {NavLink} from "react-router-dom";
 
 const NavBar = (props) => {
 
     let friendsPageElements =
-        props.state.map((el) =>
+        props.friend.map((el) =>
                     <span id={el.id}>
                         <div className={style.circle}>{el.img}</div>
                         <div className={style.nameF}>{el.name}</div>
@@ -29,12 +29,16 @@ const NavBar = (props) => {
                 <NavLink to="/settings" activeClassName={style.active}>Settings</NavLink>
             </div>
             <div className={style.itemFriends}>
-                <NavLink to="/friends" activeClassName={style.active}>Friends</NavLink>
+                <NavLink to="/friends"  activeClassName={style.active}>Friends</NavLink>
                 <div className={style.wrapper}>
                     {friendsPageElements}
                 </div>
             </div>
+            <div className={style.item}>
+                <NavLink to="/users" activeClassName={style.active}>Users</NavLink>
+            </div>
         </nav>
     );
 }
+
 export default NavBar;

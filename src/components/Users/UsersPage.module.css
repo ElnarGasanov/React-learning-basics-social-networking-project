@@ -1,0 +1,39 @@
+
+main h1{
+    margin: 0;
+}
+
+main .wrapper_button{
+    text-align: center;
+}
+
+.userPhoto img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.selectedPage{
+    font-weight: bold;
+    cursor: default;
+    font-size: 20px;
+}
+.usersJsx span:hover{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrapper_users{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    background: yellowgreen;
+}
+.wrapper_users_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -6,3 +6,18 @@
     width: 40px;
     margin: 10px;
 }
+.loginBlock{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.loginBlock a {
+    color: white;
+}
+.loginBlock div {
+    border: 1px black solid;
+    margin: 5px;
+}
+.loginBlock div img{
+    margin: 0;
+}

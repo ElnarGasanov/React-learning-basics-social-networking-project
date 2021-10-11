@@ -4,7 +4,9 @@
 .posts{
     margin-top: 10px;
 }
-
+.addPosts {
+    display: flex;
+}
 .addPosts textarea{
     resize:none
 }
